@@ -1,0 +1,1 @@
+!(function(){down();function up(){setTimeout(function(){scroll(0, down);},2);}function down(){setTimeout(function(){scroll($(document).height(),up);},2)}function scroll(pos, callback){$('html, body').animate({scrollTop: pos}, 4000, callback);}})
